@@ -42,4 +42,5 @@ int size = Convert.ToInt32(Console.ReadLine());
 
 string[] myArray = CreateStringArray(size);
 CreateNewArray(myArray);
+Console.Write("Новый массив из строк, длина которых 3 либо меньше символов: ");
 ShowArray(CreateNewArray(myArray));
